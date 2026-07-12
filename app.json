@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "SheCan - 女生生活维修助手",
+    "slug": "SheCan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "shecan",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shecan.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "用于拍摄维修过程中的照片",
+        "NSPhotoLibraryUsageDescription": "用于上传教程配图"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6B8A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.shecan.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
